@@ -1,4 +1,5 @@
-
+#This assignment is to create a tic-tac-toe game in a 3x3 square
+#Author: David Larsen
 
 def main():
     print('Welcome to Tic-Tac-Toe!')
@@ -9,7 +10,7 @@ def main():
         next_move(player, board)
         player = next_player(player)
     display_board(board)
-    print("Good game. Thanks for playing!") 
+    print("That was fun! Thanks for playing!") 
 
 def create_board():
     board = []
